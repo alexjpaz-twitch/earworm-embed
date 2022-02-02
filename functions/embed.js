@@ -4,7 +4,7 @@ exports.handler = async function (event, context) {
     <head>
       <title>Earworm</title>
       <meta content="Earworm: Playground" property="og:title" />
-      <meta content="!${decodeURIComponent(event.queryStringParameters.alert)}" Description" property="og:description" />
+      <meta content="!${decodeURIComponent(event.queryStringParameters.alert)}" property="og:description" />
       <meta property="og:footer" content="Click to play alert">
 
 
