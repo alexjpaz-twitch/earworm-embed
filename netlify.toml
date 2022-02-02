@@ -1,0 +1,7 @@
+[functions]
+  directory = "functions"
+
+[[redirects]]
+  from = "/embed"
+  to = "/.netlify/functions/embed"
+  status = 200
